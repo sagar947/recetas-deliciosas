@@ -1,0 +1,27 @@
+{
+  "name": "deliciosas-recetas",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "next": "latest",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-responsive-pagination": "^1.1.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.29.0"
+  },
+  "license": "MIT"
+}
