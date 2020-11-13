@@ -1,4 +1,4 @@
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile, faHeart } from '@fortawesome/free-solid-svg-icons';
 
@@ -13,11 +13,8 @@ const Recipe = ({ recipe }) => {
         </Card.Body>
         <Card.Footer>
           <Row>
-            <Col xs={6} className="text-center text-primary">
-              <FontAwesomeIcon icon={ faFile } size="lg" />
-            </Col>
-            <Col xs={6} className="text-center text-primary">
-              <FontAwesomeIcon icon={ faHeart } size="lg" />
+            <Col xs={12} className="text-center text-primary">
+              <Button role="link" variant="primary" href={recipe.href} block target="_blank">Read More</Button>
             </Col>
           </Row>
         </Card.Footer>
