@@ -1,1 +1,0 @@
-{"ast":null,"code":"// REDUX ACTION TYPES\nexport var FETCH_RECIPES = 'FETCH_RECIPES';","map":{"version":3,"sources":["F:/projects/fend/deliciosas-recetas/types.js"],"names":["FETCH_RECIPES"],"mappings":"AAAA;AACA,OAAO,IAAMA,aAAa,GAAI,eAAvB","sourcesContent":["// REDUX ACTION TYPES\nexport const FETCH_RECIPES  = 'FETCH_RECIPES'"]},"metadata":{},"sourceType":"module"}
